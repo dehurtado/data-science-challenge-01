@@ -4,7 +4,7 @@
 In this challenge you will analyze datasets that contain the time evolution of the physiological variable SmO2 in a group of subjects. We are interested in determining the time instant where the evolution shows a break in linear trend, i.e., the breakpoints, as illustrated in the following image:
 
 
-![challenge.pdf](https://github.com/dehurtado/data-science-challenge-01/files/7538892/challenge.pdf)
+!(https://github.com/dehurtado/data-science-challenge-01/SmO2.png)
 
 General instructions:
 * All code developments must be written in Python language using Jupyter Notebooks. 
