@@ -1,22 +1,20 @@
 # Data-science Challenge - IC Innovations
-## Challenge for candidates to the Junior Data Scientist position at IC Innovations 
+
+## Context
 
 In this challenge you will analyze datasets that contain the time evolution of the physiological variable SmO2 in a group of subjects. We are interested in determining the time instant where the evolution shows a break in linear trend, i.e., the breakpoints, as illustrated in the following image:
-
 
 ![alt text](https://github.com/dehurtado/data-science-challenge-01/blob/main/SmO2.png)
 
 Note that for this trend analysis, we neglect the recovery part of the dataset.
 
-General instructions:
-* All code developments must be written in Python language using Jupyter Notebooks. 
-* Datasets provided should be treated as confidential, and should not be distributed.
-* When you are done with the challenge, please send your results by e-mail - do not commit your results to this repository. 
+
 
 ## Tasks
 
 1. Dataset cleanup and reformatting 
-* Time reformatting: Raw data comes with time stamps. Transform them to seconds.
+* Datasets can be found [here](https://github.com/dehurtado/data-science-challenge-01/blob/main/SmO2-datasets-ICI.zip). Datasets provided should be treated as confidential, and should not be distributed.
+* Time reformatting: Raw data comes with time stamps. Transform them to seconds and only consider the column with SmO2 data.
 * Remove outliers: Some datasets contain abnormal data points (outliers) that are due to errors in the signal acqusition. No abrupt changes are expected to occur during the time evolution. Filter data to remove outliers. 
 * Slice dataset: For the purpose of this challenge we are only interested in decaying signals, and we neglect the datapoints in the recovery stage. For all datasets, detect the minimum value in SmO2 and only consider data up until that point for the analysis
 
@@ -34,3 +32,6 @@ General instructions:
 * Comment on your results
 
 
+## Deliverables
+* All code developments must be written in Python language using Jupyter Notebooks - do not commit them to this repository. Please turn in your code developments and results in a Jupyter notebook by e-mail. Don't forget to comment your codes/notebook
+* Prepare a PowerPoint/Google Slides presentation that briefly presents the methods for analysis, results, and conclusions. Your audience is the Chief Science Officer. The presentation should contain at most 10 slides, should be in English (presentation can be done in Spanish), and should be sent by e-mail when you are done with the challenge  
