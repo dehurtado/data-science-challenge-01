@@ -20,7 +20,7 @@ Note that for this trend analysis, we neglect the recovery part of the dataset.
 
 
 2. Regression analysis
-* Implement a segmented regression function: datasets are expected to follow a piecewise-linear (2-segment) trend. To this end, you have to write a function that solves the 2-segment regression. For more info baout segmented regression, see this [link](https://en.wikipedia.org/wiki/Segmented_regression) 
+* Implement a segmented regression function: datasets are expected to follow a piecewise-linear (2-segment) trend. To this end, you have to write a function that solves the 2-segment regression. For more info about segmented regression, see this [link](https://en.wikipedia.org/wiki/Segmented_regression) 
 * The function should return the fitted model constants ($A_1,K_1,A_2,K_2,BP$) and the two correlation coefficients $R_1^2,R_2^2$. Validate your function using a synthetic problem where model constants are known a priori, and a synthetic dataset is created from this regression plus noise (Gaussian)   
 * Analyze datasets: using the 2-segment regression function, determine the breakpoints (BP) and correlation coefficients $R_1^2,R_2^2$ for each of the datasets provided.
 
